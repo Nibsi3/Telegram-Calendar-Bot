@@ -30,7 +30,7 @@ SCOPES = ['https://www.googleapis.com/auth/calendar.events']
 
 EVENTS_FILE = Path("events.txt")
 
-BOT_TOKEN = "7243078339:AAE_fBkB7QNBnhMVYxufdSfFUatWwlsZs1w"  # Replace with your actual token
+BOT_TOKEN = ""  # Replace with your actual token
 
 def generate_calendar_image(month: int, year: int) -> BytesIO:
     cal = calendar.TextCalendar(calendar.SUNDAY)
